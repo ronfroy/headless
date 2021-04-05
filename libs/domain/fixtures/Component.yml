@@ -1,0 +1,11 @@
+entity: Component
+items:
+  component_1:
+    type: 'text'
+    config: '{}'
+    contentType: '@content_type_1'
+
+  component_2:
+    type: 'text'
+    config: '{}'
+    contentType: '@content_type_1'

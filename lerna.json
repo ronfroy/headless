@@ -1,0 +1,13 @@
+{
+  "npmClient": "npm",
+  "packages": [
+    "apps/*",
+    "libs/*"
+  ],
+  "version": "1.2.5",
+  "command": {
+    "version": {
+      "allowBranch": "main"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+entity: AccessToken
+items:
+  accessToken_rudy:
+    id: 'y23j754cBQ3vSuqdqUC8AKaw5hfUQ8'
+    key: '87vuJYYcaUduBXXssTbnNMjfESRbXP'
+    account: '@account_rudy'
+
+  organization_{1..40}:
+    id: '{{internet.password}}'
+    key: '87vuJYYcaUduBXXssTbnNMjfESRbXP'
+    account: '@account_*'

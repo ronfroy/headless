@@ -1,0 +1,5 @@
+entity: ContentType
+items:
+  content_type_1:
+    name: 'ContentType1'
+    slug: 'content-type-1'

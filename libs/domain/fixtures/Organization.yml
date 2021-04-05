@@ -1,0 +1,9 @@
+entity: Organization
+items:
+  organization_acme:
+    name: 'ACME Corporation'
+    owner: '@account_rudy'
+
+  organization_{1..40}:
+    name: '{{company.companyName}}'
+    owner: '@account_($current)'

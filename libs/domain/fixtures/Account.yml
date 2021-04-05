@@ -1,0 +1,13 @@
+entity: Account
+items:
+  account_rudy:
+    email: 'rudy@onfroy.net'
+    firstName: 'Rudy'
+    lastName: 'Onfroy'
+    password: '{{internet.password}}'
+
+  account_{1..40}:
+    email: '{{internet.email}}'
+    firstName: '{{name.firstName}} '
+    lastName: '{{name.lastName}}'
+    password: '{{internet.password}}'
